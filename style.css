@@ -1,0 +1,138 @@
+body { 
+	font-family: 'Open Sans', sans-serif;
+	line-height: 150%;
+	color: #323232; 
+	background-color: #DDD0C8;
+	font-size: 1em;
+	margin: 0;
+	width: 100%;
+	}
+
+#zen-intro {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 1em;
+	grid-template-areas:
+		"h h s"
+		"i i i";
+	background-image: url(https://ychef.files.bbci.co.uk/976x549/p0bzmxtx.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header {
+	grid-area: h;
+}
+
+.summary {
+	grid-area: s;
+	font-size: 2em;
+	line-height: 1.5;
+	font-style: italic;
+}
+
+.summary > p::first-letter {
+	font-size: 1.2em;
+}
+
+.preamble {
+	grid-area: i;
+	color:#DDD0C8;
+	background-color: #323232;
+	text-align: center;
+	font-size: 1em;
+	font-style: italic;
+}
+
+.preamble > h3 {
+	color: rgb(210, 189, 189);
+}
+
+header h1 {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 10em;
+	font-weight: bold;
+	line-height: 1;
+	text-align: center;
+	margin: 0.1em;
+}
+
+header h2 {
+	font-size: 50px;
+	font-weight: 300;
+	padding: 0.1em;
+	text-align: center;
+	line-height: 1;
+}
+
+p { 
+	font-weight: 500;
+	}
+
+h3 { 
+	font: 1.5em;
+	}
+
+#zen-supporting {
+	margin: 2em;
+}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #323232;
+	}
+
+a:visited {
+	color: #7e7964;
+}
+
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	}
+
+.sidebar li a:link {
+	color: #323232;
+	}
+	
+.sidebar li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+p > a[href^="http"] {
+	color: #242323;
+}
+
+footer {
+	text-align: center;
+}
+
+footer > a {
+	background-color: rgb(210, 189, 189);
+	border: 2px solid #323232;
+	border-radius: 5px;
+	color: #323232;
+	padding: 10px 15px;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	margin: 10px 30px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 1em;
+	background-image: url(https://ychef.files.bbci.co.uk/976x549/p0bzmxtx.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.wrapper > div {
+	margin-left: 5em;
+}
+
