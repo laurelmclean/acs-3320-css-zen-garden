@@ -19,3 +19,5 @@ To successfully complete this assignment, I had to meet the following requiremen
 3. **Utilize CSS Grid**
 
 4. **Incorporate background-images**
+
+![Zen garden](zengarden.png)

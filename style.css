@@ -94,7 +94,12 @@ a:hover, a:focus, a:active {
 .sidebar li a:link {
 	color: #323232;
 	}
-	
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+}
+
 .sidebar li{
 	list-style: none;
 	padding: 0;
@@ -103,6 +108,11 @@ a:hover, a:focus, a:active {
 
 p > a[href^="http"] {
 	color: #242323;
+}
+
+abbr[title~="Style"] {
+	font-style: italic;
+	font-weight: 700;
 }
 
 footer {
@@ -133,6 +143,12 @@ footer > a {
 }
 
 .wrapper > div {
-	margin-left: 5em;
+	margin-left: 10em;
+	margin-bottom: 2em;
 }
+
+.design-selection a:first-of-type {
+	font-style: italic;
+}
+
 
